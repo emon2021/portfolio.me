@@ -188,7 +188,7 @@ html{
 }
 .nav-link:before{
   content: '';
-  border: 1px solid white;
+  border: 1px solid var(--border-color);
   position: absolute;
   height: 70px;
   transform: rotate(90deg);
