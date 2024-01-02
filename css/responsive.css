@@ -1,0 +1,37 @@
+/*========max width 986 pixels=======*/
+@media(max-width:986px)
+{
+    .offNav{
+        display: block;
+    }
+    
+}
+/*========max width 768 pixels=======*/
+@media(max-width:768px)
+{
+    .aboutTitle{
+        padding-bottom: 3rem;
+    }
+    .aboutLeft{
+        padding-bottom: 3rem;
+    }
+    .projectLinks{
+        display: block !important;
+      }
+    .sayHi{
+        margin-bottom: 10px;
+    }
+    
+}/*========max width 575 pixels=======*/
+@media(max-width:576px)
+{
+    .aboutLeft{
+        margin-left: 2.8rem;
+    }
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+    .cardBlock{margin-right: 0;}
+}
+    
