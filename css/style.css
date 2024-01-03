@@ -186,15 +186,15 @@ html{
   padding-right: 0;
   padding-bottom: 3px;
 }
-.nav-link:before{
+.nav-link::before{
   content: '';
-  border: 1px solid var(--border-color);
+  border: .5px solid var(--border-color);
   position: absolute;
-  height: 70px;
+  height: 100px;
   transform: rotate(90deg);
-  left: -37px;
+  left: -51px;
   transition: var(--transition-time);
-  top: 0px;
+  top: -15px;
 }
 .nav-item:hover .nav-link::before{
   left: 30px;
@@ -627,23 +627,7 @@ p.short_intro{
   height: 180%;
   opacity: 1;
 }
-.default{
-  border-color: var(--border-color) !important;
-  color: var(--border-color) !important;
-  border-radius: 0;
-  padding: 8px 30px;
-  transition: 0.3s linear !important;
-  overflow: hidden;
-  font-family: var(--thirdFont-family);
-  font-size: var(--font-size);
-  text-transform: uppercase;
-  letter-spacing: var(--letter-spacing);
-}
-.default:hover{
-  color: var(--textMain-color) !important;
-  border-color: var(--border-color) !important;
-  background-color: var(--border-color) !important;
-}
+
 
 /*====-/animated button css====*/
 
