@@ -166,6 +166,9 @@ html{
 .nav-link{
     color: var(--textMain-color);
     transition: var(--transition-time);
+    -webkit-transition: var(--transition-time);
+    -moz-transition: var(--transition-time);
+    -ms-transition: var(--transition-time);
     text-transform: uppercase;
 }
 .nav-item:hover .nav-link{
@@ -311,6 +314,9 @@ p.short_intro{
   color: var(--hover-text-color);
   border-radius: 10px;
   transition: var(--transition-time);
+  -webkit-transition: var(--transition-time);
+  -moz-transition: var(--transition-time);
+  -ms-transition: var(--transition-time);
 }
 .icon:hover{
     color: var(--hover-text-color);
@@ -472,6 +478,9 @@ p.short_intro{
     margin-top: 30px;
     margin-right: 30px;
     transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -ms-transition: .25s ease-in-out;
     border-radius: 5px;
   }
 .cardBlock:hover .mainIcon{
@@ -513,11 +522,17 @@ p.short_intro{
     color: var(--intro-color);
     font-weight: var(--fontWeight-light);
     transition: var(--transition-time);
+    -webkit-transition: var(--transition-time);
+    -moz-transition: var(--transition-time);
+    -ms-transition: var(--transition-time);
   }
 .iconTitle {
     font-size: 20px;
     color: var(--textMain-color);
     transition: var(--transition-time);
+    -webkit-transition: var(--transition-time);
+    -moz-transition: var(--transition-time);
+    -ms-transition: var(--transition-time);
     font-family: var(--firstFont-family);
   }
   /*=======-/skills what i do=======*/
@@ -536,6 +551,9 @@ p.short_intro{
   font-weight: 500;
   margin-bottom: 0.5rem;
   transition: var(--transition-time);
+  -webkit-transition: var(--transition-time);
+    -moz-transition: var(--transition-time);
+    -ms-transition: var(--transition-time);
   cursor: var(--cursor-style);
   color: var(--textMain-color);
 }
@@ -655,6 +673,9 @@ p.short_intro{
   top: 0;
   border-radius: 0 0 50% 50%;
   transition: 0.5s linear !important;
+  -webkit-transition: 0.5s linear !important;
+  -moz-transition: 0.5s linear !important;
+  -ms-transition: 0.5s linear !important;
 }
 .sayHi:hover::before{
   height: 180%;
