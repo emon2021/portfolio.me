@@ -179,7 +179,19 @@ html{
     cursor: var(--cursor-style);
     
 }
-.nav-link:focus{
+  /*======= sticky navbar=======*/
+  .sticky_nav {
+    background-color: var(--bg-color);
+    box-shadow: 1px 0px 10px 0px black;
+    top: 0;
+  }
+  .navbar{
+    position: sticky;
+    z-index: 7;
+    top: 0;
+  }
+    /*======= /sticky navbar=======*/
+.nav-link,.navbar-brand:focus{
     color: var(--hover-text-color) !important;
 }
 .nav-link{
@@ -699,13 +711,4 @@ p.short_intro{
   }
   /*=======-/footer=======*/
 
-.sticky_nav {
-  background-color: var(--bg-color);
-  box-shadow: 1px 0px 10px 0px black;
-  top: 0;
-}
-.navbar{
-  position: sticky;
-  z-index: 7;
-  top: 0;
-}
+
