@@ -538,7 +538,7 @@
                     <div class="row">
                         <div class=" col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
                         <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            &copy; Emon All Rights Reserved.
+                            Copyright &copy; <span id="dYear">CurrentYear</span> All Rights Reserved by Emon.
                         </div>
                         <div class=" col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
                     </div>
@@ -594,7 +594,16 @@
                         }, 'slow');
                     }
                 });
-            });
+
+                //__Dynamic copyright year__//
+                var dateNow = new Date();
+                var crnt_year = dateNow.getFullYear();
+
+                $('#dYear').each(function () {
+                    var text = $(this).text();
+                    $(this).text(text.replace('CurrentYear', crnt_year));
+                });
+        });
         </script>
 
     </body>
