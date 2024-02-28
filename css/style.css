@@ -352,7 +352,9 @@ p.short_intro{
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
               -6px -6px 10px -1px rgba(0, 0, 0, 0.3);
     
-    background-image: url("../images/emon.png");
+    background-image: url("../images/emon.pro.png");
+    background-size: 103%;
+    background-repeat: no-repeat;
     background-position: center center;
     filter: saturate();
     cursor: var(--cursor-style);
