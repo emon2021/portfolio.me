@@ -27,7 +27,8 @@ $(document).ready(function () {
         // Add 'active' class to the clicked tab
         $(this).addClass('active');
     });
-    
-    
+
 });
+
+
 

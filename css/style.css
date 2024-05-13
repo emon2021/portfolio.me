@@ -713,4 +713,9 @@ p.short_intro{
   }
   /*=======-/footer=======*/
 
-
+/*==========GITHUB STREAK===========*/
+.github_streak{
+  box-shadow: var(--shadow);
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -19,6 +19,7 @@
         <!----custom.style.css---->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+        
     </head>
     <body id="home">
         <!----portfolio.header.section---->
@@ -510,6 +511,45 @@
                 </div> 
             </section>
             <!-----/ projects---->
+            <!-----github statistics---->
+            <section id="github" class="allSection">
+                <div class="container">
+                    <div class="Wrapper p-5">
+                        <div data-aos="fade-right" data-aos-delay="200" class="Title text-center d-flex align-items-center justify-content-center mb-lg-4">
+                            <h2 class="border_design">
+                                GITHUB STATISTICS
+                            </h2>
+                        </div>
+                        <div class="row">
+                            <div class="box_shadow" style="background: #20232A">
+                                <div data-aos="fade-up" data-aos-delay="200" class="col-md-12 col-lg-12 col-xl-12">
+                                    <!---------github graph--------->
+                                    <div class="d-flex align-items-center justify-content-center github_streak" style="background: #20232A" >
+                                        <img align="center" width="100%" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=emon2021&theme=react&color=fff" alt="emon2021" />
+                                        
+                                    </div>
+
+                                </div>
+                                <div class="gthub_stats d-flex" style="margin-top: 40px;">
+                                    <!----left github stats--->
+                                    <div data-aos="fade-right" data-aos-delay="400" class="col-md-6 col-lg-6 col-xl-6 ">
+                                        <div class="github_streak">
+                                            <img src="https://github-stats-alpha.vercel.app/api?username=emon2021&cc=21242&tc=fff&ic=fff&bc=transparent" width="100%" alt="GitHub Streak" />
+                                        </div>
+                                    </div>
+                                    <!----right github stats--->
+                                    <div data-aos="fade-left" data-aos-delay="400" class="col-md-6 col-lg-6 col-xl-6 ">
+                                        <div class="float-end github_streak">
+                                            <img align="center" width="100%" src="https://github-readme-stats.vercel.app/api?username=emon2021&show_icons=true&theme=transparent&icon_color=fff&text_color=fff&title_color=fff&ring_color=ff4115&hide_border=true&text_bold=false&include_all_commits=true&hide=issues&show=prs_merged" alt="emon2021" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-----/github statistics---->
             <!-----get in touch---->
             <section id="contact" class="allSection">
                 <div class="container">
@@ -531,6 +571,9 @@
                 </div>
             </section>
             <!-----/get in touch---->
+            <div class="github">
+                
+            </div>
             <!-----footer---->
             <footer id="footer" class="allSection">
                 <div class="container">
@@ -571,8 +614,9 @@
             //__jquery to Scroll to a Specific Section After Page Reload__//
             $(document).ready(function () {
                 // Get the specific section on the page
-                var firstSection = $('#home');
+                let firstSection = $('#home');
                 // Scroll to the specific section
+
                 if (firstSection.length > 0) {
                     $('html, body').animate({
                         scrollTop: firstSection.offset().top
