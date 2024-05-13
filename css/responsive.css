@@ -4,6 +4,16 @@
     .offNav{
         display: block;
     }
+    .res_width{
+        width: 95%;
+    }
+    
+}
+@media(min-width:993px)
+{
+    .res_width{
+        width: 93%;
+    }
     
 }
 /*========max width 768 pixels=======*/
@@ -21,6 +31,14 @@
     .sayHi{
         margin-bottom: 10px;
     }
+    .gthub_stats{
+        display: block;
+        margin-top: 20px;
+    }
+    .responsive_bottom{margin-bottom: 20px;}
+    .res_width{
+        width: 100%;
+    }
     
 }/*========max width 575 pixels=======*/
 @media(max-width:576px)
@@ -33,5 +51,13 @@
         width: 100%;
       }
     .cardBlock{margin-right: 0;}
+    .gthub_stats{
+        display: block;
+        margin-top: 20px;
+    }
+    .responsive_bottom{margin-bottom: 20px;}
+    .res_width{
+        width: 100%;
+    }
 }
     

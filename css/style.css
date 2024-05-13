@@ -719,3 +719,9 @@ p.short_intro{
   padding: 10px;
   border-radius: 10px;
 }
+.gthub_stats{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
