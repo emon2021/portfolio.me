@@ -39,6 +39,13 @@
     .res_width{
         width: 100%;
     }
+    .review_star{
+        display: block;
+        margin-top: 6rem;
+    }
+    .client_designation {
+        line-height: 1rem;
+      }
     
 }/*========max width 575 pixels=======*/
 @media(max-width:576px)

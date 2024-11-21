@@ -612,17 +612,21 @@ li.box_control.btn:hover{
 }
   /*=======-/projects=======*/
   /*======= Testimonial =======*/
-  
+
+.slick_item{padding-bottom: 2rem;}
 .slick_inner {
-  background: #3c3c3c;
+  /* background: #3c3c3c; */
   margin: 0 auto;
   padding-bottom: 0.5rem;
-  height: 100%;
+  height: 98%;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
 }
 .item_top {
   background: #ff4115;
   width: 100%;
   height: 17rem;
+  border-radius: 10px;
   border-bottom-left-radius: 50% 30%;
   border-bottom-right-radius: 50% 30%;
   padding-top: 1rem;
@@ -670,8 +674,10 @@ li.box_control.btn:hover{
 .item_btm {
   margin-top: -8rem;
 }
-.review_star.d-flex.justify-content-end.mb-2 {
+.review_star{
   color: var(--border-color);
+  display: flex;
+  justify-content: flex-end;
 }
 .client.text-left h5 {
   font-weight: bold;
@@ -684,6 +690,7 @@ li.box_control.btn:hover{
   color: var(--bg-color);
   font-size: 14px;
 }
+
   /*=======-/ Testimonial =======*/
   /*=======say hello=======*/
   
