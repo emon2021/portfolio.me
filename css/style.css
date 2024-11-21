@@ -551,97 +551,30 @@ p.short_intro{
   }
   /*=======-/skills what i do=======*/
   /*=======projects=======*/
-  
-.projectName {
-  padding: 1.5rem;
-  background: var(--bg-color);
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  vertical-align: middle;
-  font-family: var(--firstFont-family);
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-  transition: var(--transition-time);
-  -webkit-transition: var(--transition-time);
+.box_item_img{
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    transition: var(--transition-time);
+    -webkit-transition: var(--transition-time);
     -moz-transition: var(--transition-time);
     -ms-transition: var(--transition-time);
-  cursor: var(--cursor-style);
-  color: var(--textMain-color);
+    cursor: var(--cursor-style);
+    height: 200px;
+    margin-top: 20px;
 }
-.pNames{
-  box-shadow: var(--shadow);
-  border-radius: 12px;
-  overflow: hidden;
-  padding-left: 0;
-  text-align: center;
-}
-.projectName a {
-  margin-bottom: 0;
-  color: var(--textMain-color);
-  display: block;
-  width: 100%;
-}
-.projectName:hover{
-  box-shadow: var(--shadow);
-  color: var(--text1-color);
+.mixitup-control-active{
+  background-color: var(--text1-color) !important;
 }
 
-.pDetails.p-5 {
-  font-family: var(--firstFont-family);
-  color: var(--textMain-color);
-  line-height: 2;
-  height: 100%;
-  vertical-align: middle;
+li.box_control.btn {
+  background: var(--text1-color);
+  color: var(--hover-text-color);
+  padding: 0.5rem 3rem;
+  border-radius: 0;
 }
-.pDescription {
-  font-family: var(--thirdFont-family);
-  font-size: var(--font-size);
-  color: var(--intro-color);
-  font-weight: var(--fontWeight-light);
-  padding: 30px 0px;
-}
-.projectLinks{
-  display: flex;
-}
-.d_none{
-  display: none;
-}
-.d_block{
-  display: block !important;
-}
-.active{
-  box-shadow: var(--shadow);
-}
-.active a{color: var(--text1-color);}
+  
 
-#tabs-2,#tabs-1,#tabs-3,#tabs-4,#tabs-5{
-  animation: project .8s ease-in-out;
-  -webkit-animation: project .8s ease-in-out;
-  -moz-animation: project .8s ease-in-out;
-  -ms-animation: project .8s ease-in-out;
-}
-/* #tabs-3
-#tabs-4
-#tabs-5 */
-@keyframes project{
-  0%{
-    opacity: 0;
-    transform: translateX(20%);
-    -webkit-transform: translateX(20%);
-    -moz-transform: translateX(20%);
-    -ms-transform: translateX(20%);
-  }
-  100%{
-    opacity: 1;
-    transform: translateX(0%);
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-  }
-}
   /*=======-/projects=======*/
   /*=======say hello=======*/
   

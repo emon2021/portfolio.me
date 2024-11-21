@@ -12,23 +12,27 @@
 
 // project showing js
 $(document).ready(function () {
-    $('.projectName').on('click', function () {
-        var target = $(this).data('target');
-        $("#" + target).toggle();
-        $(".pDetails").not("#" + target).hide();
-      
+    //  mixitup 
+    let mixer = mixitup('.box_list', {
+        selectors: {
+            target: '.mix'
+        },
+        animation: {
+            duration: 300
+        }
     });
-
-    //projects button 
-    $('.tab').on('click', function () {
-        // Remove 'active' class from all tabs
-        $('.tab').removeClass('active');
     
-        // Add 'active' class to the clicked tab
-        $(this).addClass('active');
-    });
+    // Add 'active' class to the first tab
+    // $('.box_control').on('click', function () {
+    //     // Remove 'active' class from all tabs
+    //     $('.box_control').removeClass('active');
+    
+    //     // Add 'active' class to the clicked tab
+    //     $(this).addClass('active');
+    // })
 
 });
+
 
 
 

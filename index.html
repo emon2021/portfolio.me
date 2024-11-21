@@ -435,7 +435,7 @@
                             </h2>
                         </div>
                         <div class="projectWrapper" id="tabs">
-                            <div class="projectLinks">
+                        <!-- <div class="projectLinks">
                                 <div data-aos="fade-right" data-aos-delay="300" class=" col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                     <ul class="pNames">
                                         <li class="projectName tab active" data-target="tabs-1">
@@ -508,7 +508,66 @@
                                     </div>
                                     
                                 </div>
+                            </div> -->
+                            
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <ul class="box_filter text-center">
+                                        <li class="box_control mixitup-control-active btn " data-filter="*">All</li>
+                                        <li class="box_control btn " data-filter=".frontend">Frontend</li>
+                                        <li class="box_control btn " data-filter=".backend">Backend</li>
+                                        <li class="box_control btn " data-filter=".fullstack">Full Stack</li>
+                                    </ul>
+                                </div>
                             </div>
+                            <div class="row box_list">
+                                <div class="col-md-4 mix frontend">
+                                    <div class="box_item_img">
+                                        <img src="images/projects/1.jpg" class="img-fluid" alt="project-1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mix backend">
+                                    <div class="box_item_img">
+                                        <img src="images/projects/2.webp" class="img-fluid" alt="project-1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mix frontend">
+                                    <div class="box_item_img">
+                                        <img src="images/projects/3.jpg" class="img-fluid" alt="project-1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mix backend">
+                                    <div class="box_item_img">
+                                        <img src="images/projects/4.png" class="img-fluid" alt="project-1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mix backend">
+                                    <div class="box_item_img">
+                                        <img src="images/projects/5.png" class="img-fluid" alt="project-1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mix frontend">
+                                    <div class="box_item_img">
+                                        <img src="images/projects/6.jpg" class="img-fluid" alt="project-1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mix backend">
+                                    <div class="box_item_img">
+                                        <img src="images/projects/7.webp" class="img-fluid" alt="project-1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mix frontend">
+                                    <div class="box_item_img">
+                                        <img src="images/projects/8.avif" class="img-fluid" alt="project-1">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mix backend">
+                                    <div class="box_item_img">
+                                        <img src="images/projects/9.png" class="img-fluid" alt="project-1">
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div> 
@@ -574,9 +633,7 @@
                 </div>
             </section>
             <!-----/get in touch---->
-            <div class="github">
-                
-            </div>
+            
             <!-----footer---->
             <footer id="footer" class="allSection">
                 <div class="container">
@@ -599,12 +656,13 @@
         <!----jquery.ui.js---->
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <!----bootstrap.min.js---->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
         <!-------aos.js----->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" ></script>
+        <!-- mixitup js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js" ></script>
+        
+        <!-- aos.init  -->
         <script>
             AOS.init();
         </script>
@@ -647,8 +705,10 @@
                     var text = $(this).text();
                     $(this).text(text.replace('CurrentYear', crnt_year));
                 });
-        });
-        </script>
+                
+                
+            });
+    </script>
 
     </body>
 </html>
