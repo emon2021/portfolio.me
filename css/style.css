@@ -563,17 +563,28 @@ p.short_intro{
     height: 200px;
     margin-top: 20px;
 }
-.mixitup-control-active{
-  background-color: var(--text1-color) !important;
-}
+
 
 li.box_control.btn {
-  background: var(--text1-color);
+  background: var(--border-color);
   color: var(--hover-text-color);
   padding: 0.5rem 3rem;
   border-radius: 0;
+  border: 1.7px solid var(--border-color);
+  transition: var(--transition-time);
+}
+li.box_control.btn:active{
+  border-color: var(--border-color);
+}
+
+li.box_control.btn:hover{
+  background: transparent;
+  transition: var(--transition-time);
 }
   
+.mixitup-control-active{
+  background: transparent !important;
+}
 
   /*=======-/projects=======*/
   /*=======say hello=======*/

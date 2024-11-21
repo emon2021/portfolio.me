@@ -15,22 +15,18 @@ $(document).ready(function () {
     //  mixitup 
     let mixer = mixitup('.box_list', {
         selectors: {
-            target: '.mix'
+            target: '.mix',
+            control: '.box_control'
         },
         animation: {
             duration: 300
         }
     });
-    
-    // Add 'active' class to the first tab
-    // $('.box_control').on('click', function () {
-    //     // Remove 'active' class from all tabs
-    //     $('.box_control').removeClass('active');
-    
-    //     // Add 'active' class to the clicked tab
-    //     $(this).addClass('active');
-    // })
 
+    // Set default active control dynamically
+    $('.box_control').removeClass('mixitup-control-active'); // Remove active from all
+    $('[data-filter="*"]').addClass('mixitup-control-active'); // Add active to default
+    
 });
 
 
