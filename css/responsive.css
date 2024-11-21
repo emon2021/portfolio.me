@@ -7,6 +7,11 @@
     .res_width{
         width: 95%;
     }
+    .review_star{
+        display: block;
+        margin-top: 1.5rem;
+    }
+    .client_designation {line-height: 1rem;}
     
 }
 @media(min-width:993px)
@@ -14,6 +19,11 @@
     .res_width{
         width: 93%;
     }
+    .review_star{
+        display: block;
+        margin-top: 1.5rem;
+    }
+    .client_designation {line-height: 1rem;}
     
 }
 /*========max width 768 pixels=======*/
@@ -41,11 +51,10 @@
     }
     .review_star{
         display: block;
-        margin-top: 6rem;
+        margin-top: 1.5rem;
     }
-    .client_designation {
-        line-height: 1rem;
-      }
+    .client_designation {line-height: 1rem;}
+    
     
 }/*========max width 575 pixels=======*/
 @media(max-width:576px)
@@ -66,10 +75,20 @@
     .res_width{
         width: 100%;
     }
+    .review_star{
+        display: block;
+        margin-top: 1.5rem;
+    }
+    .client_designation {line-height: 1rem;}
 }
 
 @media(max-width: 500px)
 {
     #offcanvasNavbar{width: 17rem;}
+    .review_star{
+        display: block;
+        margin-top: 1.5rem;
+    }
+    .client_designation {line-height: 1rem;}
 }
     

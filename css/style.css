@@ -642,9 +642,7 @@ li.box_control.btn:hover{
   overflow: hidden;
   background: #212428;
   margin: 0 auto;
-  position: absolute;
-  top: -67px;
-  left: 35%;
+  margin-top: -6.5rem;
 }
 .testi_img img {
   width: 100%;
@@ -657,18 +655,16 @@ li.box_control.btn:hover{
   width: 80%;
   border-radius: 20px;
   margin: 2rem auto;
-  position: relative;
+  /*! position: relative; */
   font-family: var(--thirdFont-family);
 }
 .client {
-  position: absolute;
-  top: 60px;
   text-align: left;
   line-height: 0.7rem;
   color: var(--text1-color);
 }
 .client_review {
-  margin-top: 4.5rem;
+  margin-top: -1rem;
   text-align: justify;
 }
 .item_btm {
@@ -690,6 +686,7 @@ li.box_control.btn:hover{
   color: var(--bg-color);
   font-size: 14px;
 }
+.testi_content{padding-top: 1rem;}
 
   /*=======-/ Testimonial =======*/
   /*=======say hello=======*/
