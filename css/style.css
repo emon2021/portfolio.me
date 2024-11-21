@@ -550,7 +550,9 @@ p.short_intro{
     font-family: var(--firstFont-family);
   }
   /*=======-/skills what i do=======*/
+  
   /*=======projects=======*/
+  
 .box_item_img{
     overflow: hidden;
     border-radius: 12px;
@@ -562,9 +564,8 @@ p.short_intro{
     cursor: var(--cursor-style);
     height: 200px;
     margin-top: 20px;
+    position: relative;
 }
-
-
 li.box_control.btn {
   background: var(--border-color);
   color: var(--hover-text-color);
@@ -572,19 +573,43 @@ li.box_control.btn {
   border-radius: 0;
   border: 1.7px solid var(--border-color);
   transition: var(--transition-time);
+  font-family: var(--thirdFont-family);
 }
 li.box_control.btn:active{
   border-color: var(--border-color);
 }
-
 li.box_control.btn:hover{
   background: transparent;
   transition: var(--transition-time);
 }
-  
 .mixitup-control-active{
   background: transparent !important;
 }
+.box_item_overlay {
+  position: absolute;
+  background: #212428ba;
+  width: 75%;
+  text-align: center;
+  padding: 2rem 14px;
+  top: 17%;
+  left: 12%;
+  border-radius: 10px;
+  color: #fff;
+  font-family: var(--secondFont-family);
+  transform: scale(0);
+  transform-origin: center;
+  transition: var(--transition-time);
+  -webkit-transition: var(--transition-time);
+  -moz-transition: var(--transition-time);
+  -ms-transition: var(--transition-time);
+}
+.box_item_overlay h4{
+  font-size: 16px;
+}
+.box_item_img:hover .box_item_overlay{
+  transform: scale(1) !important;
+}
+
 
   /*=======-/projects=======*/
   /*=======say hello=======*/
