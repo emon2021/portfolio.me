@@ -27,6 +27,18 @@ $(document).ready(function () {
     $('.box_control').removeClass('mixitup-control-active'); // Remove active from all
     $('[data-filter="*"]').addClass('mixitup-control-active'); // Add active to default
     
+    
+    //  testimonial
+    $('.slick_carousel').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        dots: true,
+    });
+    
 });
 
 
