@@ -7,12 +7,21 @@
     .res_width{
         width: 95%;
     }
+    .review_star{
+        display: block;
+        margin-top: 1.5rem;
+    }
+    .client_designation {line-height: 1rem;}
     
 }
 @media(min-width:993px)
 {
     .res_width{
         width: 93%;
+    }
+    .review_star{
+        /* display: block; */
+        margin-top: 1.5rem;
     }
     
 }
